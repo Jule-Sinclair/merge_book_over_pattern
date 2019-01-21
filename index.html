@@ -3,6 +3,12 @@
   <head>
     <title>Merge Book Image Over the Pattern Image</title>
     <script type="text/javascript" src="dist/app.js"></script>
+    <style>
+      #CombineCanvas {
+        width: 500px;
+        height: 500px;
+      }
+    </style>
   </head>
   <body>
     <div class="ImageGetter_Wrapper">
@@ -18,15 +24,6 @@
       </ul>
     </div>
 
-    <div class="UploadedImage_Wrapper">
-      <ul class="UploadedImage_Components">
-        <li class="UploadedImage_Component">
-          <img id="Uploaded_BookImage" src="" alt="">
-        </li>
-        <li class="UploadedImage_Component">
-          <img id="Uploaded_PatternImage" src="" alt="">
-        </li>
-      </ul>
-    </div>
+    <canvas id="CombineCanvas"></canvas>
   </body>
 </html>
